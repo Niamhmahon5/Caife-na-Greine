@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caife na Gréine - A warm Irish coffee shop serving fresh coffee and homemade pastries.">
+  <meta name="keywords" content="coffee shop, cafe, Irish cafe, fresh coffee, Caife na Greine">
+  <title>Caife na Gréine | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Caife na Gréine</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- IMAGE SLIDER -->
+  <section class="slider">
+    <div class="slides">
+
+      <div class="slide active" style="background-color: #4a2c2a;">
+        <div class="slide-text">
+          <h1>Welcome to Caife na Gréine</h1>
+          <p>A warm, sunny corner for great coffee.</p>
+          <a href="menu.html" class="btn">See Our Menu</a>
+        </div>
+      </div>
+
+      <div class="slide" style="background-color: #6b3f3a;">
+        <div class="slide-text">
+          <h1>Freshly Brewed Every Morning</h1>
+          <p>From espresso to cold brew — we've got your cup.</p>
+          <a href="menu.html" class="btn">Explore Drinks</a>
+        </div>
+      </div>
+
+      <div class="slide" style="background-color: #3b1f1e;">
+        <div class="slide-text">
+          <h1>Homemade Pastries Daily</h1>
+          <p>Baked fresh every morning with love.</p>
+          <a href="contact.html" class="btn">Book a Table</a>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="slider-btn prev" id="prev">&#10094;</button>
+    <button class="slider-btn next" id="next">&#10095;</button>
+
+    <div class="dots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+
+  </section>
+
+  <!-- WEATHER WIDGET -->
+  <section class="weather-widget">
+    <h2>Today's Weather</h2>
+    <div id="weather">Loading weather...</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Caife na Gréine. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
